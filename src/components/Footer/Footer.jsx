@@ -9,7 +9,7 @@ const Footer = () => {
      <button type='button' onClick={Event => window.location.href='https://www.linkedin.com/in/ganesh-chowdary-910b71195/'}>
        <AiFillLinkedin className='linkedin-logo'/>
       </button>
-      <button type='button' onClick={Event => window.location.href='https://www.linkedin.com/in/ganesh-chowdary-910b71195/'}>
+      <button type='button' onClick={Event => window.location.href='https://github.com/BhargavGanesh027?tab=repositories'}>
       <AiOutlineGithub className='github-logo'/>
       </button>
     </div>
