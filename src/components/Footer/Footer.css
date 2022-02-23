@@ -1,0 +1,20 @@
+.app-footer{
+    position: relative;
+    background: rgb(105, 101, 101);
+    color: #000;
+    font-size: 8px;
+    font-family: sans-serif;
+    padding: 10px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.app-footer-headeer{
+    align-self:flex-start;
+}
+.linkedin-logo,
+.github-logo{
+    font-size: 3rem;
+}
