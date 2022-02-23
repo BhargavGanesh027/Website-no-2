@@ -1,0 +1,33 @@
+.app-about{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #ffaa80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-about-header{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+.app-about-header .app-about-heading-1{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.app-about-header .app-about-heading-2{
+    display: block;
+    color: whitesmoke;
+}
+
+@media screen and (max-width:450px) {
+    .app-about-header .app-about-heading-1{
+        display: block;
+    }
+}
+@media screen and (max-width:900px) {
+    .app-about-header .app-about-heading-1{
+        display: block;
+    }
+}

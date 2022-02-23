@@ -1,0 +1,30 @@
+.app-intro{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #ff9966;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-intro-header{
+    color: black;
+}
+
+@media screen and (max-width:450px) {
+    .app-intro-header{
+        text-align: center;
+    }
+    .app-intro-header span{
+        display: block;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .app-intro-header{
+        text-align: center;
+    }
+    .app-intro-header span{
+        display: block;
+    }
+}
