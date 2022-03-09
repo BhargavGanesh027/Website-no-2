@@ -18,3 +18,9 @@
 .github-logo{
     font-size: 3rem;
 }
+
+@media screen and (max-width:700px) {
+    .app-footer h1{
+        display: none;
+    }
+}

@@ -1,4 +1,4 @@
-#contact-form {
+.app-contact {
     position: relative;
     background: white;
     color: #FFF;
@@ -31,7 +31,7 @@ textarea {
     resize: vertical;
 }
 
-#contact-form button {
+.app-contact button {
     width: 100%;
     padding: 10px;
     border: 0;
@@ -44,7 +44,7 @@ textarea {
     text-transform: uppercase;
 }
 
-#contact-form span {
+.app-contact span {
     display: none;
     text-align: center;
 }

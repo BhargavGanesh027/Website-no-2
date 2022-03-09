@@ -106,7 +106,7 @@ const Contact = () => {
     }
 
     return (
-        <div id="contact-form" className='app-contact'>
+        <div id="contact" className='app-contact'>
           <h1 className='app-contact-header'>Contact Me</h1>
             <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
             <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
@@ -114,6 +114,7 @@ const Contact = () => {
             <button onClick={submit}>Send Message</button>
 
             <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
+            
         </div>
     );
 };

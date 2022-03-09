@@ -6,9 +6,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .app-intro-header{
     color: black;
+}
+.app-intro h1{
+    text-align: center;
 }
 
 @media screen and (max-width:450px) {
