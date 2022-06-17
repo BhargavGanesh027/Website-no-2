@@ -1,70 +1,47 @@
 import React from 'react'
+import {Card, Button} from 'antd'
 import './Projects.css'
-import { images } from '../../constants'
+import {images} from '../../constants'
 
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+const {Meta} = Card;
 
 const Projects = () => {
   return (
     <div className='app-projects' id='projects'>
-    <Card sx={{ maxWidth: 345 }} className="card-no-1">
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          src={images.tesla}
-          alt="tesla clone"
-        />
-        <CardContent className='card-content-1'>
-          <Typography gutterBottom variant="h5" component="div">
-            Tesla Clone
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Created a Small Tesla Clone Website Using React.
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" onClick={()=>{window.location='https://tesla-clone-bg-1b190.web.app/'}}>
-          Visit
-        </Button>
-      </CardActions>
-    </Card>
+        <div onClick={()=>{window.location.assign('https://tesla-clone-bg-1b190.web.app')}}>
+            <Card
+                className='my-card'
+                hoverable
+                style={{ width: 300}}
+                cover={<img className='my-imgp' alt="example" src={images.tesla} style={{ height:'200px', width:'300px'}}/>}
+                >
+                <Meta title="Tesla Clone Website" description="https://tesla-clone-bg-1b190.web.app" />
+            </Card>
+        </div>
 
-    <Card sx={{ maxWidth: 345 }} >
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          src={images.messi1}
-          alt="green iguana"
-        />
-        <CardContent className='card-content-2'>
-          <Typography gutterBottom variant="h5" component="div">
-            Leo a.k.a GOAT
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Here he's again 
-            here he's again
-            that's astonishing!
-            that's absolutely world class......
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" onClick={()=>{window.location='https://www.google.com/search?q=leo+messi'}}>
-          Goat
-        </Button>
-      </CardActions>
-    </Card>
+        <div onClick={()=>{window.location.assign('https://vanilla-js-bg027.netlify.app')}}>
+            <Card
+                className='my-card' 
+                hoverable
+                style={{ width: 300}}
+                cover={<img className='my-imgp' alt="example" src={images.js} style={{ height:'200px', width:'300px', objectFit: 'cover'}}/>}
+                >
+                <Meta title="Vanilla JS Projects" description="https://vanilla-js-bg027.netlify.app" />
+            </Card>
+        </div>
 
+        <div onClick={()=>{window.location.assign('https://cryptoverse-bg027.netlify.app')}}>
+            <Card
+                className='my-card'
+                hoverable
+                style={{ width: 300}}
+                cover={<img className='my-imgp' alt="example" src={images.btc} style={{ height:'200px', width:'300px', objectFit: 'cover'}}/>}
+                >
+                <Meta title="Cool CryptoCurrency App" description="https://cryptoverse-bg027.netlify.app" />
+            </Card>
+        </div>
     </div>
   )
 }
-
 
 export default Projects

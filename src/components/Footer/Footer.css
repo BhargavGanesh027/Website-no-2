@@ -24,3 +24,11 @@
         display: none;
     }
 }
+
+.lin{
+    cursor: pointer;
+}
+
+.lin:hover{
+    opacity: .8;
+}

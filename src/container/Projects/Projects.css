@@ -3,7 +3,7 @@
     background: #ffbb99;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     color: #000;
     display: flex;
@@ -27,7 +27,21 @@
     .app-projects{
         flex-direction: column;
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    .app-projects{
+        overflow: scroll;
+    }
+    .my-card{
+        margin: 20px 0;
+        height: 100%;
+    }
+    .my-imgp{
+        height: 100px;
+        width: 100%;
+    }
 }

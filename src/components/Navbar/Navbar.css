@@ -1,4 +1,5 @@
 .app-navbar{
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -39,11 +40,13 @@
 } */
 
 .app-navbar-links{
+    height: 100%;
     flex: 1;
+    margin-bottom: 0 !important;
     display: flex;
     color: var(--color-golden);
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     list-style: none;
     font-size: 1.3rem;
     transition: .5s;
@@ -56,6 +59,7 @@
 
 .app-navbar-links li{
     margin: 0 3rem;
+    align-self: center;
     cursor: pointer;
 }
 

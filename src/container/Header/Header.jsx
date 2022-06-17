@@ -8,7 +8,7 @@ const Header = () => {
       <h1><span>Hi Iam Bhargav Ganesh</span><span className='heading-2'>I'm a Web Developer.</span></h1>
     </div>
       <div className='floating-icon'>
-        <a href='https://www.dropbox.com/scl/fi/sy2okcmt3qhvgyo5pmayg/UPDATED_Ganesh_RESUME.docx?dl=0&rlkey=xiymy7fgot3mda34ninhblrly' title="Resume" class="material-icon floating-icon-a"><span className="floating-icon-span" role="img" aria-label="resume">💾</span></a>
+        <a href='https://www.dropbox.com/scl/fi/zdllj5mk9bka3jcdgscd7/Myresume.docx?dl=0&rlkey=b2dfr6weh3n3ydjohth7sxe7j' title="Resume" class="material-icon floating-icon-a"><span className="floating-icon-span" role="img" aria-label="resume">💾</span></a>
       </div>
   </section>
     
